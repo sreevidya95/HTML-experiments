@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+    </head>
+    <body>
+        <h1><center><u>Registration</u></center></h1><br>
+        <form action="basicstructures.html" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Registration Form</legend>
+                <label for="uid">
+                    Enter UserName:
+                    <input type="text" name="userName" id="uid"/>
+                </label><br><br>
+                <label for="pwd">
+                    Enter Password:
+                    <input type="password" name="userPassword" id="pwd"/><br>
+                </label><br>
+                <label for="confirmpwd">
+                    Confirm Password:
+                    <input type="password" name="confirmPassword" id="confirmpwd"/>
+                </label><br>
+                How Did you hear about us?
+                <input type="radio" value="companywebsite">company website
+                <input type="radio" value="linkedin">LinkedIn
+                <input type="radio" value="refferal">Reffered by an Employee<br><br>
+                <input type="checkbox" value="agree">
+                <a href="basicstructures.html" noreferer noopener>Agree to our terms and conditions</a><br><br>
+                <center>
+                    <input type="submit">
+                    <input type="reset" value="cancel">
+                </center>
+            </fieldset>
+        </form>
+    </body>
+</html>
