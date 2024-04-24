@@ -1,0 +1,19 @@
+h1{
+    text-decoration:underline;
+    text-align: center;
+}
+#bigdeal{
+    font-weight: bold;
+}
+div h3{
+    background-color: tan;
+}
+div h4{
+    text-shadow: 5px 5px red;
+}
+.cookie-regular {
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
